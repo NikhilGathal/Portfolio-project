@@ -11,33 +11,33 @@
 </head>
 
 <body>
-  <nav id="desktop-nav">
-    <div class="logoh"> <a href="#">Nikhil</a> </div>
-    <div>
-      <ul class="nav-links">
-        <li><a class="hh" href="#">Home</a></li>
-        <li><a class="hh" href="#about">About</a></li>
-        <li><a class="hh" href="#projects">Projects</a></li>
-        <li><a class="hh" href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">Nikhi</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+
+
+<div class="main-c">
+  <header >
+    <div class="header-content">
+
+      <div class="logo">
+        <div class="logoh"> <a href="#profile">Nikhil</a></div>
       </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+      <div class="hamburger-menu-container">
+        <div class="hamburger-menu">
+          <span class="hamburger-icon">&#9776;</span>
+        </div>
       </div>
+
+      <nav class="navbar">
+        <span class="close-icon">&times;</span>
+        <a href="#profile">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
     </div>
-  </nav>
+
+  </header>
 
   <section id="profile">
 
@@ -62,25 +62,7 @@
     </section>
 
     <section id="about">
-
         <div class="container">
-          <div class="skills-section">
-            <h2>Skills</h2>
-            <div class="skill">
-              <p>Frontend :HTML,CSS,JavaScript,React,Redux</p>
-            </div>
-            <div class="skill">
-              <p>Backend : Java,Hibernate,Springboot</p>
-            </div>
-            <div class="skill">
-              <p>Database : MYSQL</p>
-            </div>
-            <div class="skill">
-              <p>Other : Postman,REST API</p>
-            </div>
-
-          </div>
-
           <div class="about-section">
             <h1>About Me</h1>
             <p> Skilled software developer adept in Core Java, MySQL, and modern web development technologies.
@@ -91,8 +73,24 @@
               <li><strong>Profile:</strong> <span>Full Stack Developer</span></li>
               <li><strong>Education:</strong> <span>Bachelor of Engineering</span></li>
               <li><strong>Languages:</strong> <span>English, Marathi</span></li>
-              <li><strong>Interests:</strong> <span>Traveling, Reading news, Badminton</span></li>
+              <li><strong>Interests:</strong> <span>Traveling, Reading news</span></li>
             </ul>
+          </div>
+          <div class="skills-section">
+            <h2>Skills</h2>
+            <div class="skill">
+              <p> <strong>Frontend</strong> : HTML,CSS,JavaScript,React,Redux</p>
+            </div>
+            <div class="skill">
+              <p><strong>Backend</strong> : Java,Hibernate,Springboot</p>
+            </div>
+            <div class="skill">
+              <p><strong>Database</strong> : MYSQL</p>
+            </div>
+            <div class="skill">
+              <p><strong>Other</strong> : Postman,REST API</p>
+            </div>
+
           </div>
         </div>
   </section>
@@ -105,7 +103,8 @@
       <div class="about-containers">
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/Top-Ecommerce-Websites.jpg" alt="Project 1" class="project-img" />
+            <a href="https:responsive-ecommerce-site.netlify.app/"> <img src="./assets/Top-Ecommerce-Websites.jpg"
+                alt="Project 1" class="project-img" /></a>
           </div>
           <h3 class="experience-sub-title project-title">E-Commerce-Application</h3>
           <div class="btn-container">
@@ -121,7 +120,8 @@
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/expensetracker.jpg" alt="Project 2" class="project-img" />
+            <a href="https:trackyourexpensesreactapp.netlify.app/"><img src="./assets/expensetracker.jpg"
+                alt="Project 2" class="project-img" /></a>
           </div>
           <h2 class="experience-sub-title project-title">Track Your Expenses</h2>
           <div class="btn-container">
@@ -137,7 +137,8 @@
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/rest.jpg" alt="Project 3" class="project-img" />
+            <a href="https:responsive-countries-app.netlify.app/"> <img src="./assets/rest.jpg" alt="Project 3"
+                class="project-img" /></a>
           </div>
           <h2 class="experience-sub-title project-title">Countries API</h2>
           <div class="btn-container">
@@ -153,7 +154,8 @@
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/taskschedule.png" alt="Project 3" class="project-img" />
+            <a href="https:task-scheduler-for-daily-routine.netlify.app/"> <img src="./assets/taskschedule.png"
+                alt="Project 3" class="project-img" /></a>
           </div>
           <h2 class="experience-sub-title project-title">Task Scheduler</h2>
           <div class="btn-container">
@@ -169,7 +171,8 @@
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/weather.png" alt="Weather app" class="project-img" />
+            <a href="https:responsiveweatherapplication.netlify.app/"> <img src="./assets/weather.png" alt="Weather app"
+                class="project-img" /></a>
           </div>
           <h2 class="experience-sub-title project-title">Weather app</h2>
           <div class="btn-container">
@@ -183,6 +186,22 @@
             </button>
           </div>
         </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <a href="https:number-guessing-js.netlify.app/"> <img src="./assets/guess.png" alt="Weather app"
+                class="project-img" /></a>
+          </div>
+          <h2 class="experience-sub-title project-title">Weather app</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https:github.com/NikhilGathal/GuessNumber'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https:number-guessing-js.netlify.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -192,14 +211,9 @@
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
 
-
     <div class="footer">
-
       <div class="footer-container">
-
-
         <div class="footer-item">
-
           <h3>ADDRESS</h3>
           <p>Pune, India</p>
         </div>
@@ -228,11 +242,9 @@
 
 
   </section>
-  <footer>
+</div>
 
-
-  </footer>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 
 </html>

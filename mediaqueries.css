@@ -1,103 +1,159 @@
-@media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+@media (max-width: 1112px) {
+  .main-c {
+    scroll-behavior: smooth;
   }
-  .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact,
-  #projects {
-    height: fit-content;
-  }
-}
 
-@media screen and (max-width: 1200px) {
-  #desktop-nav {
-    display: none;
+  .info-list {
+    margin-top: 20px;
   }
-  #hamburger-nav {
-    display: flex;
+  .logoh {
+    font-size: 1.4rem;
   }
-  #experience,
-  .experience-details-container {
-    margin-top: 2rem;
-  }
-  #profile,
-  .section-container {
-    display: block;
-  }
-  .arrow {
-    display: none;
-  }
-  section,
-  .section-container {
-    height: fit-content;
-  }
-  section {
-    margin: 0 5%;
-  }
-  .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
-  }
-  .about-containers {
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    height: 40vh;
-  }
-  #profile {
-    height: 83vh;
-    margin-bottom: 0;
-  }
-  article {
+  .navbar a {
     font-size: 1rem;
   }
-  footer nav {
-    height: fit-content;
-    margin-bottom: 2rem;
+  .main-c {
+    scroll-padding-top: 55px;
   }
-  .about-containers,
-  .contact-info-upper-container,
-  .btn-container {
-    flex-wrap: wrap;
-  }
-  .contact-info-container {
-    margin: 0;
-  }
-  .contact-info-container p,
-  .nav-links li a {
-    font-size: 1rem;
-  }
-  .experience-sub-title {
-    font-size: 1.25rem;
-  }
-  .logo {
-    font-size: 1.5rem;
-  }
-  .nav-links {
+  .container {
     flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
   }
-  .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
+  .skill p {
+    margin-bottom: 0px;
+    white-space: nowrap;
+  }
+
+  .skills-section {
+    align-self: self-start;
+    margin-top: 0px;
+  }
+  .about-section p {
+    line-height: 1.4;
+  }
+  .skill {
+    margin-bottom: 5px;
+  }
+  #projects {
+    margin-top: 10px;
+  }
+  #about {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section__text .title {
+    font-size: 36px;
   }
   .section__text__p2 {
-    font-size: 1.25rem;
+    font-size: 20px;
+  }
+  .btn {
+   padding-block: 8px;
+   padding-inline: 6px;
+    width: 6.8rem;
+    border-radius: 2rem;
+  }
+
+  .icon {
+    height: 1.5rem;
+  }
+  .about-section h1 {
+    font-size: 36px;
+  }
+  .about-section p {
+    line-height: 1.4;
+    font-size: 14px;
+  }
+  .info-list strong,
+  li {
+    font-size: 14px;
+  }
+  .skills-section h2 {
+    font-size: 20px;
+  }
+  .skill p,
+  strong {
+    color: black;
+    font-size: 14px;
+  }
+  .section__text__p1 {
+    font-size: 13px;
   }
   .title {
-    font-size: 2rem;
+    font-size: 36px;
   }
-  .text-container {
-    text-align: justify;
+
+  .color-container {
+    flex-grow: 1; /* Allow it to grow but maintain equal sizes */
+    flex-basis: 250px; /* Set a fixed starting width */
+    max-width: 250px; /* Prevent stretching beyond this */
+    padding: 1rem;
+  }
+  .experience-sub-title {
+    height: 70.5px;
+  }
+
+  .footer-item h3 {
+    font-size: 19px;
+  }
+
+  .footer-item p {
+    font-size: 14px;
+  }
+
+  .footer {
+    margin-top: 10px;
+  }
+  .footer-container {
+    gap: 25px;
+  }
+
+  .main-c {
+    scroll-behavior: smooth;
+  }
+  .main-c {
+    scroll-padding-top: 65px;
+  }
+
+  nav {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    right: -200px;
+    top: 8px;
+    padding: 24px;
+    /* display: none; */
+    transition: right 0.5s ease-in-out;
+  }
+  nav a + a {
+    margin: 0;
+    margin-top: 10px;
+  }
+  .menu-open nav {
+    /* display: flex; */
+    right: 24px;
+  }
+  .header-content {
+    min-height: 50px;
+  }
+
+  header {
+    background-color: #f6f0ebb7;
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+    padding: 8px 24px;
+  }
+  .close-icon,
+  .hamburger-menu-container {
+    display: block;
+  }
+  .menu-open .hamburger-menu-container {
+    display: none;
+  }
+  .logo {
+    width: 40px;
   }
 }
