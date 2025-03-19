@@ -618,10 +618,16 @@ transform: scale(1.08) ;
   display: flex;
   flex-direction: column;
   justify-content: center;
+ height: 85vh;
 }
 #contact .title
 {
   margin-top: 25px;
+}
+
+#contact .get
+{
+  margin-top: -25px;
 }
 
 .footer {
