@@ -277,15 +277,8 @@ section {
   }
 }
 
-.section__pic-container {
-  display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
-
 .section__text {
-  margin-top: -100px;
+  /* margin-top: -100px; */
   align-self: center;
   text-align: center;
 }
@@ -309,11 +302,11 @@ section {
 
 #profile .title 
 {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 #profile .section__text__p2 
 {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 #profile .btn-container 
 {
@@ -389,7 +382,7 @@ section {
 /* ABOUT SECTION */
 
 #about {
-  margin-top: 150px;
+  margin-top: 15px;
   position: relative;
 }
 
@@ -410,19 +403,26 @@ section {
 }
 
 .skills-section {
-  margin-top: 22px;
+  margin-top: 10px;
+}
+.skills-section .f1{
+  margin-top: 30px;
 }
 .skills-section h2{
-  margin-top: -20px;
+  margin-top: 20px;
 }
 
 .skill {
-  margin-top: 20px;
+  margin-top: 4px;
 }
 .skill p {
   color: black;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   white-space: nowrap;
+}
+.skills-section p 
+{
+  color: black;
 }
 
 .about-section {
@@ -613,13 +613,19 @@ transform: scale(1.08) ;
 
 /* CONTACT */
 
+#contact 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 #contact .title
 {
   margin-top: 25px;
 }
 
 .footer {
-  margin-top: 80px;
+  margin-top: 40px;
   padding: 40px 0;
   text-align: center;
 }
