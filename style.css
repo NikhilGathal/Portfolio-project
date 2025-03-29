@@ -477,6 +477,23 @@ section {
   text-align: left;
   font-weight: bold;
 }
+.skill .o 
+{
+  margin-left: 5px;
+}
+.skill .t
+{
+  margin-left: 7px;
+}
+.skill .f
+{
+  margin-left:-1px;
+}
+
+.skill .s
+{
+  margin-left :32.5px;
+}
 
 .info-list span {
   flex: 1;
@@ -679,4 +696,11 @@ transform: scale(1.08) ;
   text-decoration-color: rgb(181, 181, 181);
 }
 
+.footer-item .lin:hover 
+{
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
 
