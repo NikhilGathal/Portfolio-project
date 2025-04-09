@@ -636,6 +636,26 @@ transform: scale(1.08) ;
   height: 73.5px;
 }
 
+
+/* Certificate
+
+*/
+
+
+.certify {
+  cursor: pointer;
+ 
+  
+}
+
+.certify:hover 
+{
+  color: grey;
+ 
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
 /* CONTACT */
 
 #contact 
