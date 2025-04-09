@@ -651,7 +651,7 @@ transform: scale(1.08) ;
 .certify:hover 
 {
   color: grey;
- 
+
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
