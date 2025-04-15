@@ -157,3 +157,13 @@
     width: 40px;
   }
 }
+
+
+@media (min-width: 1112px) and (max-width: 1245px) {
+ 
+  .skills-section h2 
+  {
+    margin-bottom: 55px;
+    margin-top: 0;
+  }
+}
