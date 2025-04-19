@@ -428,6 +428,7 @@ section {
 }
 .skills-section p 
 {
+  margin-bottom: 5px;
   color: black;
 }
 
@@ -487,7 +488,7 @@ section {
 }
 .skill .f
 {
-  margin-left:2px;
+  margin-left:1px;
 }
 
 .skill .s
