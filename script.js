@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
     });
-  }, observerOptions);
+  },  observerOptions);
 
   sections.forEach(section => observer.observe(section));
 });
