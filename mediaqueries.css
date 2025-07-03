@@ -115,7 +115,10 @@
   .main-c {
     scroll-padding-top: 65px;
   }
-
+.navbar a 
+{
+  font-size: 0.8rem;
+}
   nav {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.95);
@@ -123,14 +126,14 @@
     flex-direction: column;
     right: -200px;
     top: 8px;
-    padding: 24px;
+    padding: 14px;
     border: 2px solid rgb(125, 120, 120);
     /* display: none; */
     transition: right 0.5s ease-in-out;
   }
   nav a + a {
     margin: 0;
-    margin-top: 10px;
+    margin-top: 8px;
   }
   .menu-open nav {
     /* display: flex; */
@@ -157,6 +160,18 @@
   .logo {
     width: 40px;
   }
+}
+
+@media (max-width: 460px) { 
+  nav a + a {
+    margin: 0;
+    margin-top: 6px;
+  }
+.navbar a 
+{
+  font-size: 0.6rem;
+}
+
 }
 
 @media (min-width: 1112px) and (max-width: 1245px) {
