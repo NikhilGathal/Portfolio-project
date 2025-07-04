@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Intersection Observer to detect which section is in view
   const observerOptions = {
     root: null,
-    threshold: 0.1, // At least 60% of the section should be visible
+    threshold: 0.18, // At least 60% of the section should be visible
   };
 
   let observer = new IntersectionObserver(function (entries) {
