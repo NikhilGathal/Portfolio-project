@@ -68,10 +68,10 @@ nav a {
 
 .active7
 {
-  color: grey;
+  color:rgb(223, 107, 130);
   /* text-decoration: underline; */
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(223, 107, 130);
 }
 
 nav a + a {
@@ -85,10 +85,10 @@ nav a + a {
 
 .navbar a:hover 
 {
-  color: grey;
+  color: rgb(223, 107, 130);
   /* text-decoration: underline; */
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(223, 107, 130);
 }
 
 
@@ -109,10 +109,10 @@ a {
 .hh:focus,
 .hh:active,
 .hh.active {
-  color: grey;
+  color: rgb(223, 107, 130);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(223, 107, 130);
 }
 .logoh {
   cursor: pointer;
@@ -655,10 +655,10 @@ transform: scale(1.08) ;
 }
 .certify:hover 
 {
-  color: grey;
+  color: rgb(223, 107, 130);
 
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(223, 107, 130);
 }
 
 /* CONTACT */
@@ -717,17 +717,17 @@ transform: scale(1.08) ;
 }
 
 .footer-item a:hover {
-  color: grey;
-  text-decoration: underline;
+  color: rgb(223, 107, 130);
+  /* text-decoration: underline; */
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(223, 107, 130);
 }
 
 .footer-item .lin:hover 
 {
-  color: grey;
-  text-decoration: underline;
+  color: rgb(223, 107, 130);;
+  /* text-decoration: underline; */
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(223, 107, 130);
 }
 
