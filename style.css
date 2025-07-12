@@ -628,7 +628,7 @@ transform: scale(1.08) ;
 .project-title {
   font-size: 23px;
   margin-top: 1rem;
-  color: black;
+  color: black; 
 }
 
 .project-btn {
