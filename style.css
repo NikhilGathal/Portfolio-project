@@ -395,7 +395,7 @@ section {
 .container {
   display: flex; /* Change from inline-flex to flex */
   align-items: center;
-  max-width: 1140px; /* Set a max width */
+  max-width: 1150px; /* Set a max width */
   margin-inline: auto; /* Center horizontally */
   padding: 20px;
   gap: 48px;
@@ -409,8 +409,11 @@ section {
 }
 
 .skills-section {
-  margin-top: 10px;
+  /* max-width: 500px; */
+  
 }
+
+
 .skills-section .f1{
   margin-top: 30px;
 }
