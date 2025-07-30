@@ -49,10 +49,12 @@
     font-size: 20px;
   }
   .btn {
-    padding-block: 8px;
-    padding-inline: 6px;
-    width: 6.8rem;
+    padding-block: 15px;
+    padding-inline: 15px;
+    width: 7.8rem;
     border-radius: 2rem;
+   white-space: nowrap;
+   font-size: 15px;
   }
 
   .icon {
@@ -203,6 +205,15 @@
 .navbar a 
 {
   font-size: 0.6rem;
+}
+
+.title
+{
+  font-size: 1.7rem;
+}
+.certify 
+{
+  white-space: nowrap;
 }
 
 }
