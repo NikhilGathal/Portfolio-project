@@ -702,6 +702,7 @@ transform: scale(1.08) ;
 #contact .get
 {
   margin-top: -25px;
+  white-space: nowrap;
 }
 
 .footer {
