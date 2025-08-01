@@ -62,8 +62,8 @@ font-size: 20px;
   }
   .pb 
   {
- padding-block: 15px;
-    padding-inline: 15px;
+ padding-block: 13px;
+    padding-inline: 13px;
     width: 7.8rem;
     border-radius: 2rem;
    white-space: nowrap;
@@ -235,6 +235,19 @@ font-size: 20px;
 {
 font-size: 15px;
 }
+  .btn {
+    padding-block: 7px;
+    padding-inline: 9px;
+  margin-top: 5px;
+   font-size: 10px;
+  }
+  .pb 
+  {
+ padding-block: 11px;
+    padding-inline: 11px;
+    
+   font-size: 14px;
+  }
 
 }
 
