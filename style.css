@@ -348,6 +348,10 @@ section {
   cursor: pointer;
   height: 3rem;
 }
+.icon-lin {
+  cursor: pointer;
+  height: 30px;
+}
 
 /* BUTTONS */
 
