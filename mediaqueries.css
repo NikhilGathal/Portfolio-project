@@ -243,7 +243,17 @@ font-size: 18px;
   }
 }
 
-@media (max-width: 460px) { 
+@media (max-width: 460px) {
+  
+   html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+.main-c {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
     .experience-sub-title {
     height: 45.5px;
   }

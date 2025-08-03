@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // console.log(this);
       
       this.classList.add("active7");
+      //  headerContent.classList.remove("menu-open");
     });
   });
 
