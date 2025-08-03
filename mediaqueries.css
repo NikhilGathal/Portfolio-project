@@ -137,6 +137,7 @@ font-size: 20px;
     flex-basis: 250px; /* Set a fixed starting width */
     max-width: 250px; /* Prevent stretching beyond this */
     padding: 1rem;
+     min-width: 250px;
   }
   .experience-sub-title {
     height: 70.5px;
@@ -208,6 +209,38 @@ font-size: 20px;
   .logo {
     width: 40px;
   }
+
+    .icon {
+    height: 2.5rem;
+  }
+.project-title
+{
+font-size: 18px;
+}
+  .btn {
+    padding-block: 14px;
+    padding-inline: 14px;
+  margin-top: 5px;
+   font-size: 14px;
+  }
+  .pb 
+  {
+ padding-block: 13px;
+    padding-inline: 13px;
+    
+   font-size: 16px;
+  }
+  .skills-section 
+
+  {text-align: center;}
+  .color-container
+  {
+    min-width: 240px;
+  }
+   .icon-lin
+  {
+    height: 38px;
+  }
 }
 
 @media (max-width: 460px) { 
@@ -222,6 +255,10 @@ font-size: 20px;
 {
   font-size: 0.6rem;
 }
+.skill p {
+    white-space: normal;
+    word-wrap: break-word;
+  }
 
 .title
 {
@@ -231,22 +268,36 @@ font-size: 20px;
 {
   white-space: nowrap;
 }
+  .icon {
+    height: 2.5rem;
+  }
 .project-title
 {
-font-size: 15px;
+font-size: 18px;
 }
   .btn {
-    padding-block: 7px;
-    padding-inline: 9px;
+    padding-block: 14px;
+    padding-inline: 14px;
   margin-top: 5px;
-   font-size: 10px;
+   font-size: 14px;
   }
   .pb 
   {
- padding-block: 11px;
-    padding-inline: 11px;
+ padding-block: 13px;
+    padding-inline: 13px;
     
-   font-size: 14px;
+   font-size: 16px;
+  }
+  .skills-section 
+
+  {text-align: center;}
+  .color-container
+  {
+    min-width: 240px;
+  }
+  .icon-lin
+  {
+    height: 38px;
   }
 
 }
