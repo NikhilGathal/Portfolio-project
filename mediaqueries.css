@@ -249,6 +249,9 @@ font-size: 18px;
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
 }
+#contact {
+  padding-bottom: 25px;
+}
 
 .main-c {
   overflow-x: hidden;
