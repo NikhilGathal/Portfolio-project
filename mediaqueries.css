@@ -247,12 +247,12 @@ font-size: 18px;
   
    html {
   scroll-behavior: smooth;
-  scroll-padding-top: 100px;
+  scroll-padding-top: 90px;
 }
 
 .main-c {
   overflow-x: hidden;
-  min-height: 90vh;
+  min-height: 95vh;
 }
     .experience-sub-title {
     height: 45.5px;
