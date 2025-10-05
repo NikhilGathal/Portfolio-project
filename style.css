@@ -435,8 +435,8 @@ section {
   gap: 20px;
 }
 
-.skills-section {
-  /* max-width: 500px; */
+.skills-section .secondline{
+ margin-left: 92px;
   
 }
 #about h1 
@@ -445,7 +445,7 @@ section {
 }
 
 .skills-section .f1{
-  /* margin-top: 30px; */
+  margin-top: 8px;
 }
 .skills-section .sk 
 {
@@ -457,7 +457,7 @@ section {
 }
 
 .skill {
-  margin-top: 21px;
+  margin-top: 18px;
 }
 .skill p {
   color: black;
@@ -466,7 +466,7 @@ section {
 }
 .skills-section p 
 {
-  margin-bottom: 7px;
+  /* margin-bottom: 7px; */
   color: black;
 }
 
